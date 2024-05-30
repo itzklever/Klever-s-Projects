@@ -2,11 +2,46 @@
 h1 {
     color: black
 }
-p {width: 60%;color: black;}
+p {width: 60%;color: black;
+}
 
 img {width: 10%;}
-body {
-    background-color: #0e4f6d;}
-    .box {width: 5%;
-        border: 2px solid #808080;
-    padding: 10px;}
+
+nav {
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* nav ul li a:hover {
+    background-color: #555;
+} */
+
+button {color: black;
+background-color: paleturquoise;
+border-color: paleturquoise;
+cursor: pointer;
+transition: 2ms;
+width: 8%;}
+
